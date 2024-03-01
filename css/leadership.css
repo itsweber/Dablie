@@ -1,0 +1,1699 @@
+.logo-icon {
+  height: 98.9px;
+  width: 301.7px;
+}
+
+.about,
+.frame-icon,
+.logo-icon {
+  position: relative;
+}
+.frame-icon {
+  width: 15px;
+  height: 7.6px;
+}
+.banner,
+.testimonials {
+  display: flex;
+  justify-content: flex-start;
+}
+.testimonials {
+  height: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-6xs) 0;
+  box-sizing: border-box;
+}
+.banner {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 12px;
+  text-align: center;
+}
+.our-program {
+  position: relative;
+  white-space: nowrap;
+}
+.vector-icon {
+  width: 15px;
+  height: 7.6px;
+  position: relative;
+}
+.banner1,
+.vector-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.vector-wrapper {
+  height: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-6xs) 0;
+  box-sizing: border-box;
+}
+.banner1 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 12px;
+}
+.events {
+  flex: 1;
+  position: relative;
+}
+.project-based-learning {
+  width: 15px;
+  height: 7.6px;
+  position: relative;
+}
+.mentorship {
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.stories {
+  flex: 1;
+  position: relative;
+}
+.development-programs,
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.development-programs {
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 12px;
+}
+.navigation-bar {
+  width: 550px;
+  align-items: flex-start;
+  padding: var(--padding-xl) 12px var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 0 19px;
+  max-width: 100%;
+}
+.donate {
+  position: relative;
+  font-size: var(--heading-3-size);
+  font-family: var(--heading-4);
+  color: var(--dablie-grey-950);
+  text-align: left;
+}
+.button,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-6xs);
+  background-color: var(--dablie-primary-3);
+  width: 116px;
+  border-radius: 21.5px;
+}
+.button:hover {
+  background-color: #69a3ab;
+  border: 2px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.header {
+  align-self: stretch;
+  background-color: var(--dablie-grey-300);
+  overflow: hidden;
+  padding: var(--padding-mini) var(--padding-xl);
+  gap: 0 122px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-3-size);
+  color: var(--color-black);
+  font-family: var(--heading-4);
+}
+.programs {
+  position: relative;
+}
+.leadership-program-scholarship {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border-top: 1.5px solid var(--dablie-primary-3);
+  box-sizing: border-box;
+  margin-left: -118px;
+}
+.footer {
+  width: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.leadership {
+  color: rgba(0, 67, 70, 0.75);
+}
+.head-text {
+  margin: 0;
+  width: 879px;
+  position: relative;
+  font-size: 72px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  color: var(--color-black);
+}
+.icon-facebook,
+.icon-instagram,
+.icon-linkedin {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  min-height: 45px;
+}
+.frame-header,
+.frame-subheader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-subheader {
+  gap: 0 17px;
+}
+.frame-header {
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.leadership-image-icon {
+  align-self: stretch;
+  height: 586px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.get-involved,
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.social-icons {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px 0;
+}
+.get-involved {
+  width: 994px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 16px 0 0;
+  box-sizing: border-box;
+}
+.at-the-dablie {
+  width: 990px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.image {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 4px;
+  text-align: justify;
+  color: var(--dablie-grey-900);
+}
+.become-a-part-of,
+.image,
+.section-1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section-1 {
+  flex: 1;
+  background-color: var(--dablie-grey-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px var(--padding-xl) 96px 36px;
+  gap: 73px 0;
+}
+.become-a-part-of {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-41xl);
+  text-align: left;
+  font-size: var(--heading-3-size);
+  color: var(--dablie-primary-3);
+  font-family: var(--heading-4);
+}
+.categories-of-leadership {
+  font-size: medium;
+  margin: 0;
+  height: 59px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.categories-of-leadership-progr-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 70px 0 30px 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.young-leaders-program {
+  position: relative;
+}
+.mentorship1 {
+  width: 548px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.bullet,
+.program-image-icon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.program-image-icon {
+  width: 358px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+  
+
+.bullet {
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: black;
+    border-radius: 50%;
+    pointer-events: none; 
+  cursor: none;
+  border-color: var(--dablie-grey-200);
+  cursor: pointer;
+  margin: 0;
+  height: 12px;
+  width: 12px;
+}
+
+
+.ages-15-20 {
+  font-weight: 600;
+}
+.ages-15-20-catered-to-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet1 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.develop-essential-skills {
+  font-weight: 600;
+}
+.develop-essential-skills-lear-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet2 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.explore-islamic-leadership {
+  font-weight: 600;
+}
+.explore-islamic-leadership-un-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.third {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet3 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.engage-in-community {
+  font-weight: 600;
+}
+.engage-in-community-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.forth {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet4 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.build-a-supportive {
+  font-weight: 600;
+}
+.build-a-supportive-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.fifth {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 14px;
+  box-sizing: border-box;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet-points {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31px 0;
+  min-width: 783px;
+}
+.bullet-points,
+.frame-projects,
+.section-2,
+.section-2-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-projects {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 37px;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+}
+.section-2,
+.section-2-wrapper {
+  box-sizing: border-box;
+}
+.section-2 {
+  flex: 1;
+  background-color: var(--dablie-grey-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-121xl) 86px 134px var(--padding-xl);
+  gap: 41px 0;
+}
+.section-2-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 143px;
+  text-align: left;
+  font-size: var(--heading-3-size);
+  color: var(--dablie-secondary-3);
+  font-family: var(--heading-4);
+}
+.leaders-program-ages {
+  position: relative;
+  white-space: pre-wrap;
+}
+.essential-skills {
+  width: 448px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.photo-2024-03-01-01-12-11-1-icon {
+  height: 339px;
+  width: 358px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.bullet5 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.careers-and-more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.ages-20-45 {
+  font-weight: 600;
+}
+.ages-20-45-tailored-for-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.first1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet6 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.deepen-your-expertise {
+  font-weight: 600;
+}
+.deepen-your-expertise-gain-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.second1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet7 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.craft-your-vision {
+  font-weight: 600;
+}
+.craft-your-vision-align-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.third1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 26px;
+  max-width: 100%;
+}
+.bullet-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.mentor-and-inspire {
+  font-weight: 600;
+}
+.mentor-and-inspire-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 51px);
+}
+.forth1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 29px;
+  max-width: 100%;
+}
+.bullet8 {
+  cursor: pointer;
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bullet-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.collaborate-on-impactful {
+  font-weight: 600;
+}
+.collaborate-on-impactful-container {
+  width: 735px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: calc(100% - 48px);
+}
+.bullet-points1,
+.fifth1,
+.supportive-environment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fifth1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 26px;
+}
+.bullet-points1,
+.supportive-environment {
+  flex-direction: column;
+}
+.bullet-points1 {
+  align-self: stretch;
+  gap: 32px 0;
+}
+.supportive-environment {
+  flex: 1;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 511px;
+}
+.project-learning {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 48px;
+  font-size: var(--heading-4-size);
+}
+.leadership-hub,
+.project-learning,
+.scholarshipprogram {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.leadership-hub {
+  width: 1192px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px 0;
+}
+.scholarshipprogram {
+  width: 1294px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 139px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-3-size);
+  color: var(--color-black);
+  font-family: var(--heading-4);
+}
+.our-program-offers {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.image-1-icon {
+  position: absolute;
+  top: 30px;
+  left: 18px;
+  width: 114px;
+  height: 89px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-parent {
+  height: 150px;
+  flex: 1;
+  position: relative;
+}
+.frame-wrapper {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.interactive-workshops {
+  position: relative;
+  font-weight: 500;
+}
+.develop-essential-leadership {
+  width: 265px;
+  position: relative;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+  display: inline-block;
+}
+.frame-parent,
+.leadership-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px 0;
+}
+.frame-parent {
+  gap: 17px 0;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.image-2-icon {
+  position: absolute;
+  top: 30px;
+  left: 22px;
+  width: 105.6px;
+  height: 89px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipse-group {
+  height: 150px;
+  flex: 1;
+  position: relative;
+}
+.interactive-workshops-inner {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mentorship3 {
+  position: relative;
+  font-weight: 500;
+}
+.mentorship2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 27px;
+}
+.connect-with-experienced {
+  width: 265px;
+  position: relative;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+  display: inline-block;
+}
+.interactive-workshops1,
+.mentorship-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px 0;
+}
+.interactive-workshops1 {
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: 17px 0;
+}
+.supportive-network {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.image-3-icon {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  width: 110px;
+  height: 99.5px;
+  object-fit: cover;
+  z-index: 1;
+}
+.supportive-network-parent {
+  height: 150px;
+  flex: 1;
+  position: relative;
+}
+.networking-opportunities {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.networking-opportunities-wrapper {
+  width: 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.project-based-learning2 {
+  position: relative;
+  font-weight: 500;
+}
+.apply-your-newfound {
+  width: 265px;
+  position: relative;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+  display: inline-block;
+}
+.follow-us,
+.project-based-learning-parent,
+.project-based-learning1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px 0;
+}
+.follow-us,
+.project-based-learning1 {
+  align-items: center;
+  gap: 17px 0;
+}
+.follow-us {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 69px;
+}
+.leadership-program1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.image-4-icon {
+  position: absolute;
+  top: 32px;
+  left: 27px;
+  width: 96px;
+  height: 86px;
+  object-fit: cover;
+  z-index: 1;
+}
+.image-rectangle {
+  height: 150px;
+  flex: 1;
+  position: relative;
+}
+.ellipse {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.networking-opportunities-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image-5-icon {
+  height: 84.5px;
+  width: 87.5px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.project-based-learning3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-14xl) 31px;
+  position: relative;
+}
+.button-rounded,
+.mentorship-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.mentorship-frame {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.button-rounded {
+  width: 590px;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.networking-opportunities1 {
+  position: relative;
+  font-weight: 500;
+}
+.build-connections-with {
+  width: 265px;
+  position: relative;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+  display: inline-block;
+}
+.networking-opportunities-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px 0;
+  min-width: 322px;
+  max-width: 100%;
+}
+.a-nurturing-environment {
+  position: relative;
+  font-weight: 500;
+}
+.belong-to-a {
+  margin: 0;
+}
+.belong-to-a-container {
+  width: 265px;
+  height: 132px;
+  position: relative;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+  display: inline-block;
+}
+.a-nurturing-environment-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px 0;
+  min-width: 308px;
+}
+.vibrant-network {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.inner-container {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px 0;
+}
+.get-involved1,
+.header-layout,
+.inner-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.header-layout {
+  width: 748px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.get-involved1 {
+  flex-direction: column;
+  align-items: center;
+  gap: 41px 0;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--heading-3-size);
+  color: var(--dablie-primary-2);
+}
+.foundation-mission,
+.section-4-the-programs-we-off {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section-4-the-programs-we-off {
+  flex: 1;
+  background-color: var(--dablie-grey-200);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 51px;
+  gap: 91px 0;
+}
+.foundation-mission {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-106xl);
+  text-align: left;
+  font-size: var(--heading-2-size);
+  color: var(--color-black);
+  font-family: var(--heading-4);
+}
+.become-part-of {
+  width: 1062px;
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.donate1 {
+  position: relative;
+  font-size: 21.8px;
+  font-family: var(--heading-4);
+  color: var(--color-black);
+  text-align: left;
+}
+.button-rounded-no-fill {
+  cursor: pointer;
+  border: 1.8px solid var(--color-black);
+  padding: var(--padding-7xs) var(--padding-8xs) var(--padding-7xs)
+    var(--padding-3xs);
+  background-color: transparent;
+  flex: 1;
+  border-radius: 22.69px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button-rounded-no-fill:hover {
+  background-color: rgba(51, 51, 51, 0.09);
+  border: 1.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.leader-connect {
+  width: 129px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.become-part-of-a-vibrant-netwo-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.leadership-page-final-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-106xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--heading-3-size);
+  color: var(--color-black);
+  font-family: var(--heading-4);
+}
+.the-foundation {
+  height: 38px;
+  font-size: var(--font-size-12xl-1);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+}
+.about1,
+.our-mission,
+.the-foundation {
+  position: relative;
+}
+.about-our-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 19px 0;
+  min-width: 250px;
+}
+.our-work {
+  position: relative;
+  font-weight: 500;
+}
+.economic-empowerment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.dabllie-business-froum,
+.economic-empowerment-program,
+.leadership-program2,
+.scholarship-program1 {
+  position: relative;
+}
+.dablie-business-forum {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.other-programs,
+.partners-direcotry,
+.youth-club1 {
+  position: relative;
+}
+.scholarship-program,
+.youth-club {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.youth-club {
+  align-self: stretch;
+  gap: 18px 0;
+  font-size: var(--heading-4-size);
+  color: var(--link-color);
+}
+.scholarship-program {
+  flex: 1;
+  gap: 32px 0;
+  min-width: 207px;
+}
+.discover {
+  font-weight: 500;
+}
+.discover,
+.stories2 {
+  position: relative;
+}
+.social-icons1 {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  font-size: var(--heading-4-size);
+  color: var(--link-color);
+}
+.become-part-of1,
+.leadership-programs,
+.social-icons1,
+.stories1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stories1 {
+  flex-direction: column;
+  gap: 21px 0;
+  margin-left: -1px;
+}
+.become-part-of1,
+.leadership-programs {
+  flex-direction: row;
+  max-width: 100%;
+}
+.leadership-programs {
+  flex: 1;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 295px;
+  row-gap: 20px;
+  font-size: var(--font-size-12xl-1);
+  color: var(--color-black);
+}
+.become-part-of1 {
+  width: 765px;
+  gap: 0 61px;
+}
+.get-involved2 {
+  height: 38px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+.contact-us-careers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  font-size: var(--font-size-12xl-1);
+  color: var(--color-black);
+}
+.careers,
+.contact-us,
+.donate2,
+.membership,
+.partnership {
+  position: relative;
+}
+.footer-layout,
+.vibrant-network1 {
+  display: flex;
+  align-items: flex-start;
+}
+.footer-layout {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18px 0;
+}
+.vibrant-network1 {
+  width: 1077px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  color: var(--link-color);
+}
+.follow-us1 {
+  height: 38px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.social-icons-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-11xs);
+}
+.social-icons2,
+.social-icons3,
+.social-icons4 {
+  height: 46.6px;
+  width: 46.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 47px;
+}
+.social-icons-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-xl);
+}
+.discover-section,
+.social-icons-social-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discover-section {
+  width: 202px;
+  flex-direction: column;
+  gap: 21px 0;
+}
+.social-icons-social-icons {
+  width: 1029px;
+  flex-direction: row;
+  padding: 0 0 19px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-12xl-1);
+}
+.dablie-foundation-all {
+  position: relative;
+}
+.copyright-info {
+  width: 563px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: 23.3px;
+}
+.footer1,
+.leadership-page-final {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--heading-4);
+}
+.footer1 {
+  margin-left: -18px;
+  align-self: stretch;
+  background-color: var(--dablie-grey-300);
+  padding:100px 0px;
+  box-sizing: border-box;
+  gap: 81px 0;
+  max-width: 100%;
+  font-size: var(--heading-4-size);
+}
+.leadership-page-final {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  letter-spacing: normal;
+  font-size: var(--heading-1-size);
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    gap: 0 122px;
+  }
+  .section-1 {
+    padding-top: 46px;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+  }
+  .become-a-part-of {
+    padding-bottom: 39px;
+    box-sizing: border-box;
+  }
+  .bullet-points,
+  .program-image-icon {
+    flex: 1;
+  }
+  .frame-projects {
+    flex-wrap: wrap;
+  }
+  .section-2 {
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+  .section-4-the-programs-we-off {
+    gap: 91px 0;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .leadership-page-final-inner {
+    max-width: calc(100% - 10px);
+  }
+  .footer1 {
+    gap: 81px 0;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .head-text {
+    font-size: 58px;
+  }
+  .section-1 {
+    gap: 73px 0;
+  }
+  .categories-of-leadership {
+    font-size: 38px !important;
+  }
+  .bullet-points {
+    min-width: 100%;
+  }
+  .section-2-wrapper {
+    padding-bottom: 93px;
+    box-sizing: border-box;
+  }
+  .photo-2024-03-01-01-12-11-1-icon {
+    flex: 1;
+  }
+  .project-learning {
+    flex-wrap: wrap;
+  }
+  .our-program-offers {
+    font-size: 26px;
+  }
+  .follow-us {
+    flex-wrap: wrap;
+    gap: 0 69px;
+  }
+  .section-4-the-programs-we-off {
+    padding-top: var(--padding-14xl);
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .foundation-mission {
+    padding-bottom: 81px;
+    box-sizing: border-box;
+  }
+  .discover,
+  .get-involved2,
+  .our-work,
+  .the-foundation {
+    font-size: var(--font-size-6xl);
+  }
+  .vibrant-network1 {
+    flex-wrap: wrap;
+  }
+  .follow-us1 {
+    font-size: var(--font-size-6xl);
+  }
+  .footer1 {
+    padding-top: var(--padding-72xl);
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    gap: 0 122px;
+  }
+  .section-1 {
+    gap: 73px 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+  .become-a-part-of {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .frame-projects {
+    gap: 0 37px;
+  }
+  .section-2 {
+    gap: 41px 0;
+    padding-top: var(--padding-72xl);
+    padding-right: var(--padding-2xl);
+    padding-bottom: 87px;
+    box-sizing: border-box;
+  }
+  .supportive-environment {
+    min-width: 100%;
+  }
+  .project-learning {
+    gap: 0 48px;
+  }
+  .leadership-hub {
+    gap: 32px 0;
+  }
+  .scholarshipprogram {
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+  .follow-us {
+    gap: 0 69px;
+  }
+  .a-nurturing-environment-parent,
+  .networking-opportunities-parent {
+    flex: 1;
+  }
+  .vibrant-network {
+    flex-wrap: wrap;
+  }
+  .get-involved1 {
+    gap: 41px 0;
+  }
+  .section-4-the-programs-we-off {
+    gap: 91px 0;
+  }
+  .foundation-mission {
+    padding-bottom: 53px;
+    box-sizing: border-box;
+  }
+  .about-our-mission {
+    flex: 1;
+  }
+  .become-part-of1 {
+    flex-wrap: wrap;
+    gap: 0 61px;
+  }
+  .footer1 {
+    gap: 81px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    gap: 0 122px;
+  }
+  .programs {
+    font-size: var(--font-size-lgi);
+  }
+  .head-text {
+    font-size: 43px;
+  }
+  .at-the-dablie {
+    font-size: var(--font-size-lgi);
+  }
+  .categories-of-leadership {
+    font-size: 29px;
+  }
+  .young-leaders-program {
+    font-size: var(--font-size-lgi);
+  }
+  .bullet-points {
+    gap: 31px 0;
+  }
+  .section-2-wrapper {
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .leaders-program-ages {
+    font-size: var(--font-size-lgi);
+  }
+  .bullet-points1 {
+    gap: 32px 0;
+  }
+  .interactive-workshops,
+  .mentorship3,
+  .our-program-offers,
+  .project-based-learning2 {
+    font-size: var(--font-size-lgi);
+  }
+  .mentorship-frame {
+    flex-wrap: wrap;
+  }
+  .a-nurturing-environment,
+  .networking-opportunities1 {
+    font-size: var(--font-size-lgi);
+  }
+  .section-4-the-programs-we-off {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .become-part-of {
+    font-size: var(--font-size-lgi);
+  }
+  .donate1 {
+    font-size: 17px;
+  }
+  .our-work,
+  .the-foundation {
+    font-size: var(--font-size-lgi);
+  }
+  .scholarship-program {
+    gap: 32px 0;
+  }
+  .discover {
+    font-size: var(--font-size-lgi);
+  }
+  .stories1 {
+    margin-left: 0;
+  }
+  .leadership-programs {
+    flex-wrap: wrap;
+  }
+  .become-part-of1 {
+    gap: 0 61px;
+  }
+  .dablie-foundation-all,
+  .follow-us1,
+  .get-involved2 {
+    font-size: var(--font-size-lgi);
+  }
+  .footer1 {
+    padding-top: 59px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

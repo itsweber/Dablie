@@ -1,0 +1,197 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-linkcolor: rgba(0, 94, 138, 1);
+  --dl-color-default-dablieaccent1: rgba(0, 67, 70, 0.5);
+  --dl-color-default-dablieaccent2: rgba(0, 67, 70, 0.75);
+  --dl-color-default-dablieaccent3: rgba(0, 67, 70, 1);
+  --dl-color-default-dabliegrey100: rgba(252, 252, 252, 1);
+  --dl-color-default-dabliegrey200: rgba(245, 249, 255, 1);
+  --dl-color-default-dabliegrey300: rgba(243, 243, 243, 1);
+  --dl-color-default-dabliegrey400: rgba(227, 235, 239, 1);
+  --dl-color-default-dabliegrey600: rgba(219, 233, 242, 0.8999999761581421);
+  --dl-color-default-dabliegrey700: rgba(166, 192, 210, 1);
+  --dl-color-default-dabliegrey800: rgba(52, 89, 115, 1);
+  --dl-color-default-dabliegrey900: rgba(32, 59, 73, 1);
+  --dl-color-default-dabliegrey950: rgba(20, 25, 29, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-default-dablieprimary1: rgba(80, 137, 145, 0.5);
+  --dl-color-default-dablieprimary2: rgba(80, 137, 145, 0.75);
+  --dl-color-default-dablieprimary3: rgba(80, 137, 145, 1);
+  --dl-color-default-dabliesecondary1: rgba(23, 42, 58, 0.5);
+  --dl-color-default-dabliesecondary2: rgba(23, 42, 58, 0.75);
+  --dl-color-default-dabliesecondary3: rgba(23, 42, 58, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Heading1 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Boldparagraph1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Paragraph1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Heading3 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Heading4 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BoldHeading3 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.BoldHeading4 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Heading0 {
+  font-size: 72px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BoldHeading0 {
+  font-size: 72px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BoldHeading2 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.BoldHeading1 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Heading2 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-stretch: normal;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <title>Payment</title>
+</head>
+<body>
+    <button class="add-btn" id="add-btn" onclick="openPopup()">Donate Now</button><br><br><br>
+    <a href="./index.html">Back to home page!!!</a>
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup-content">
+          <span class="close-button" onclick="closePopup()">&times;</span>
+            <div class="payment">
+              <h1>Make Donation</h1><br>
+
+                    <div class="container">
+                        <button class="button" id="onceButton" onclick="selectButton('once')">Once</button>
+                        <button class="button" id="monthlyButton" onclick="selectButton('monthly')">Monthly</button>
+                    </div><br>
+
+                    <label for="fname">Donation Amount (Br): *</label>
+                    <input type="number" id="amount" name="amount" required><br><br>
+
+                    <label for="fname">First Name: *</label>
+                    <input type="text" id="fname" name="name" required><br><br>
+
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" id="mname" name="name" ><br><br>
+
+                    <label for="lname">Last Name: *</label>
+                    <input type="text" id="lname" name="name" required><br><br>
+
+                    <label for="email">Email: *</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <div class="button-container">
+                        <button class="button credit-card-button" onclick="showForm('card-details-form')">Credit Card</button>
+                        <button class="button paypal-button">PayPal</button>
+                    </div>
+                
+                    <div id="card-details-form" class="card-details-form">
+                        <!-- Add your credit card form here -->
+                        <form>
+                            <label for="cnum">Card Number:</label>
+                            <input type="password" id="cnum" name="cnum" pattern="[0-9]{13,16}" maxlength="16" required>
+
+                            <label for="expiry">Expiry:</label>
+                            <input type="text" id="expiry" name="expiry" oninput="formatExpiryDate()" maxlength="5" placeholder="mm/yy" required><br><br>
+
+                            <label for="cvv">CVV:</label>
+                            <input type="password" id="cvv" name="cvv" oninput="limitInputLength(this, 3)" required><br><br>
+
+                            <input type="submit" value="Make Payment">
+                        </form>
+                    </div>
+            </div> 
+        </div>
+      </div>
+</body>
+</html>
+
+
+<script src="./js/script.js"></script>
